@@ -1,38 +1,76 @@
 .App {
   text-align: center;
+  background-color: #efefef;
+  min-height: 100vh;
+    padding: 0 1em;
+    margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  /*min-height: 100vh;*/
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 30px;
+  color: rgb(16, 15, 15);
+  padding: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.search-form{
+  color: black;
+  margin-bottom: 20px;
+  padding: 25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search-results{
+    margin-bottom: 20px;
+}
+
+.App-container {
+  padding: 20px;
+}
+
+.flexy-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flexy-item{
+  flex-grow: 1;
+}
+
+button{
+    background-color: #4c88af;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+.ReactModal__Body--open{
+  overflow: hidden;
+}
+
+.pageName{
+  display: inline-block;
+  margin-right: 5px;
+  width: 24px;
+  background-color:#4c88af;
+  margin-bottom: 20px;
+}
+
+.txtbox{
+  font-size : 20px;
+  width: 75%;
+}
+
+.errorMsg{
+  color: red;
 }
