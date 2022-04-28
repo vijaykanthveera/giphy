@@ -1,11 +1,6 @@
-import React,{useEffect} from "react";
+import React from "react";
 
 const SearchForm = (props) => {
-
-  useEffect(() => {
-    console.log("use effect called in search form");
-  });
-
   return (
     <div className="search-form">
       <input
@@ -16,7 +11,11 @@ const SearchForm = (props) => {
         placeholder="Search"
       ></input>
       <br />
-      <button data-testid="go" type="button" onClick={(e) => props.handleSearch(e)}>
+      <button
+        data-testid="go"
+        type="button"
+        onClick={(e) => props.handleSearch(e)}
+      >
         Go
       </button>
       <button type="button" onClick={(e) => props.handleClear(e)}>

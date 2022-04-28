@@ -125,7 +125,7 @@ function AppContainer() {
         currentItems={currentItems}
       />
 
-      {showModal && (
+      { (
         <RenditionsModal
           data={overlayData}
           showModal={showModal}

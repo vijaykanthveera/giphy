@@ -1,9 +1,6 @@
-import React,{useEffect} from "react";
+import React from "react";
 
 const Paginator = (props) => {
-  useEffect(() => {
-    //console.log("use effect called in search form");
-  });
 
   const pageNumbers = [];
   const len = Math.ceil(props.totalItems / props.itemsPerPage);
