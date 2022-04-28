@@ -1,6 +1,6 @@
 # Giphy App
 
-This application helps to find interesting giphy images which is created using ReactJs.
+This application helps to find interesting giphy images.
 
 ## Available Scripts
 
